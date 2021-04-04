@@ -1,4 +1,21 @@
-# BreakingBadVotingApp
+# Frontend de Breaking voting con GraphQL y Socket
+
+Frontend del proyecto de la aplicación de breaking voting utilizando Socket, además desarrollado con `Angular`.
+
+<br>
+
+#### Instalar dependencias
+
+```
+npm install
+```
+
+### Demo Frotend App
+
+[application-angular-demo](https://angular-breaking-voting-ale.herokuapp.com)
+
+<br>
+<hr>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
