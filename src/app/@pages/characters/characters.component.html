@@ -1,0 +1,10 @@
+<h1 class="my-4">
+    Personajes
+    <small>Informaci&oacute;n</small>
+</h1>
+<app-loading *ngIf="loading"></app-loading>
+<div class="row" *ngIf="!loading">
+    <div class="col-lg-4" *ngFor="let character of characters">
+        <app-card [character]="character"></app-card>
+    </div>
+</div>

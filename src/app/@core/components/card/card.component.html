@@ -1,0 +1,13 @@
+<div class="card character" *ngIf="character">
+    <img [src]="character.photo" class="card-img-top" alt="..." />
+    <div class="card-body">
+        <h5 class="card-title">
+            {{ character.name }} - Episodios: {{ character.total_episodes }}
+        </h5>
+        <p class="card-text">
+            {{ character.description! | truncate: 250:true }}
+        </p>
+        <a [href]="character.url" target="_blank" class="btn btn-info">M&aacute;s informaci&oacute;n</a
+    >
+  </div>
+</div>
